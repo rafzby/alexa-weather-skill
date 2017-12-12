@@ -77,3 +77,15 @@ Copy *https* url from your *ngrok* output and paste it in endpoint configuration
 
 ![alexa-weather-skill](https://i.imgur.com/YIGi43L.png)
 
+In **SSL Certificate** tab select following option.
+
+```
+My development endpoint is a sub-domain of a domain that has a wildcard certificate from a certificate authority
+```
+
+Now you can test your app with Alexa, speaking:
+```
+Alexa ask weather app about weather
+Alexa ask weather app about today's weather
+Alexa ask weather app about current weather
+```
