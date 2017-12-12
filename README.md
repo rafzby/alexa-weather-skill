@@ -32,5 +32,13 @@ pip install -r requirements.txt
 ```
 
 
+### Configuration
+
+Create an account on https://developer.amazon.com/
+
+In developer console open ALEXA tab and click "Get Started" button below Alexa Skills Kit.
+
+![alexa-weather-skill](https://i.imgur.com/7RkPiit.png)
+
 
 
