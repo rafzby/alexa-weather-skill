@@ -3,8 +3,14 @@
 Alexa weather skill using OpenWeatherMap API.
 
 ## Getting Started
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-Create an account on http://openweathermap.org/api and get API KEY.
+
+### Prerequisites
+
+This project requires *python3.5*!
+
+Create an account on http://openweathermap.org/api and get the API KEY.
 
 Create .env file in project directory and complete it as below:
 
@@ -14,4 +20,13 @@ CITY=London,UK
 ```
 
 Obviously put your city there :)
+
+Create a virtualenv
+
+```sh
+virtualenv -p /usr/bin/python3.5 venv
+```
+
+
+
 
