@@ -1,3 +1,5 @@
-# ${1:Alexa Weather Skill}
+# Alexa Weather Skill
 
-Alexa weather skill using OpenWeatherMap API
+Alexa weather skill using OpenWeatherMap API.
+
+## Getting Started
