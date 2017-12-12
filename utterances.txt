@@ -1,0 +1,3 @@
+WeatherIntent weather
+WeatherIntent today's weather
+WeatherIntent current weather
