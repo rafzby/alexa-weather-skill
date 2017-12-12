@@ -100,6 +100,8 @@ ENV/
 # mypy
 .mypy_cache/
 
+# PyCharm
 .idea/
+
+# virtualenv install script
 install.sh
-venv
