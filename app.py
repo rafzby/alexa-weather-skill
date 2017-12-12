@@ -10,7 +10,8 @@ ask = Ask(app, '/')
 def weather_intent():
     data = weather.get_weather_data()
 
-    response = "Right now in {} is {} degrees".format(data['name'], data['main']['temp'])
+    response = "Right now in {city} is {temp} degrees. Wind speed is {wind_speed} meters per second.".format(
+        city=data['name'], temp=data['main']['temp'], wind_speed=data['wind']['speed'])
 
     return statement(response)
 
