@@ -31,6 +31,9 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
+Download *ngrok* https://ngrok.com/
+
+We will use it to test this skill from local machine.
 
 ### Configuration
 
@@ -53,3 +56,24 @@ Complete Interaction model with intent schema and utterances. You will find them
 ![alexa-weather-skill](https://i.imgur.com/MUqFAsN.png)
 
 ![alexa-weather-skill](https://i.imgur.com/xj5Inax.png)
+
+Run *app.py* and then run *ngrok* to create a tunnel which will expose app to the internet.
+
+```sh
+python app.py
+
+ngrok http 5000
+```
+
+You should see output like this.
+
+![alexa-weather-skill](https://i.imgur.com/J1Bme7U.png)
+
+Go to the **Configuration** tab in alexa developer console.
+
+Select **HTTPS** endpoint type.
+
+Copy *https* url from your *ngrok* output and paste it in endpoint configuration in alexa developer console.
+
+![alexa-weather-skill](https://i.imgur.com/YIGi43L.png)
+
