@@ -21,7 +21,7 @@ CITY=London,UK
 
 Obviously put your city there :)
 
-Create a virtualenv and install requirements.
+Create *virtualenv* and install requirements.
 
 ```sh
 virtualenv -p /usr/bin/python3.5 venv
