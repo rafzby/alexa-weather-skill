@@ -48,4 +48,8 @@ Complete **Name** and **Invocation Name** as follows:
 
 Click **Save**.
 
+Complete Interaction model with intent schema and utterances. You will find them in project directory.
 
+![alexa-weather-skill](https://i.imgur.com/MUqFAsN.png)
+
+![alexa-weather-skill](https://i.imgur.com/xj5Inax.png)
