@@ -8,9 +8,9 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-This project requires *python3.5*
+This project requires **python3.5**
 
-Create an account on http://openweathermap.org/api and get the API KEY.
+Create an account on http://openweathermap.org/api and get the **API KEY**.
 
 Create *.env* file in project directory and complete it as below:
 
@@ -36,9 +36,16 @@ pip install -r requirements.txt
 
 Create an account on https://developer.amazon.com/
 
-In developer console open ALEXA tab and click "Get Started" button below Alexa Skills Kit.
+In developer console open **ALEXA** tab and click **Get Started** button below **Alexa Skills Kit** tab.
 
 ![alexa-weather-skill](https://i.imgur.com/7RkPiit.png)
 
+Then click **Add a New Skill** button.
+
+Complete **Name** and **Invocation Name** as follows:
+
+![alexa-weather-skill](https://i.imgur.com/eKyJJ6V.png)
+
+Click **Save**.
 
 
