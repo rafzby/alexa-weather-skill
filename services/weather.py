@@ -4,8 +4,8 @@ import json
 
 
 def get_weather_data():
-    url = OPEN_WEATHER_MAP['BASE_URL'] + '?q={}&appid={}'.format(OPEN_WEATHER_MAP['CITY'],
-                                                                 OPEN_WEATHER_MAP['API_KEY'])
+    url = OPEN_WEATHER_MAP['BASE_URL'] + '?q={}&appid={}&units=metric'.format(OPEN_WEATHER_MAP['CITY'],
+                                                                              OPEN_WEATHER_MAP['API_KEY'])
 
     session = requests.Session()
     session.headers.update({'User-Agent': 'Alexa Weather Skill'})

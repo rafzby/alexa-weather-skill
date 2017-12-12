@@ -9,6 +9,7 @@ ask = Ask(app, '/')
 @ask.intent('WeatherIntent')
 def weather_intent():
     data = weather.get_weather_data()
+
     response = "Right now in {} is {} degrees".format(data['name'], data['main']['temp'])
 
     return statement(response)
