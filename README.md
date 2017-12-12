@@ -73,7 +73,7 @@ Go to the **Configuration** tab in alexa developer console.
 
 Select **HTTPS** endpoint type.
 
-Copy *https* url from your *ngrok* output and paste it in endpoint configuration in alexa developer console.
+Copy *https* url from your *ngrok* output and paste it in endpoint configuration.
 
 ![alexa-weather-skill](https://i.imgur.com/YIGi43L.png)
 
